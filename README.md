@@ -42,24 +42,26 @@ O sistema também se destaca por:
 ## 🗂️ Estrutura do Projeto
 ```PY
 Hackathon-1.25/
-├── app/ # Backend Flask (API)
-│ └── app.py
-│ └── validator
-│   └── engine.py
-│   └── rules.yaml
-├── database/ # Dados de exemplo (.csv)
-│ └── Produtos.csv
-│ └── Empresas.csv
-│ └── Validacao.csv
-├── frontend/ # Frontend com Streamlit
-│ └── home.py
-
-├── gemini/ # Integração com IA (Google Gemini)
-│ └── gemini_chat.py
-├── .env # Exemplo de variável de ambiente
-├── Dockerfile # Dockerfile da API Flask
-├── docker-compose.yml # Orquestração dos serviços
-└── requirements.txt # Dependências Python
+├── app/                                 # Backend Flask (API)
+│ └── app.py                              │
+│ └── validator                           │
+│   └── engine.py                         │
+│   └── rules.yaml                        │
+├── database/                             # Dados de exemplo (.csv)
+│ └── Produtos.csv                        │
+│ └── Empresas.csv                        │
+│ └── Validacao.csv                       │
+├── frontend/                             # Frontend com Streamlit
+│ └── home.py                             │
+│ └── pages                               # pasta com as páginas do streamlit
+│ └── img                                 # pasta com as imagens do frontend
+│ └── gemini/                             # Integração com IA (Google Gemini)
+│     └── gemini_chat.py                  │
+│     └── prompt_template.txt             # template de texto para a AI
+├── .env                                  # Variável de ambiente
+├── Dockerfile                            # Dockerfile da API Flask
+├── docker-compose.yml                    # Orquestração dos serviços
+└── requirements.txt                      # Dependências Python
 ```
 
 ## 🧪 Como Executar o Projeto
