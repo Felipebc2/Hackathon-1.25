@@ -133,4 +133,5 @@ streamlit run home.py
 ---
 
 Este projeto está licenciado sob a MIT License.
+
 © 2025 Felipe Castro, Fábio Terra, Sara Azevedo, Pietro Branco. Todos os direitos reservados.
