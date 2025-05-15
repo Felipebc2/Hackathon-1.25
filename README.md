@@ -5,7 +5,7 @@
 
 <h1><div>Sharebite</div></h1>
 
-<img src="frontend/img/SharebiteNtext.png" width="40%" />
+<img src="https://i.postimg.cc/NMbDGj1k/Sharebite-Ntext.png" width="40%" />
 </div>
 
 Sistema desenvolvido durante a 5ª edição do Hackathon do IDP em apenas 20h com foco em **reduzir o desperdício de alimentos** e **conectar empresas doadoras com pessoas em vulnerabilidade**, respeitando as normas da ANVISA. A aplicação permite validar alimentos, gerar relatórios interativos e integrar incentivos sociais e fiscais, tudo com **suporte de IA** que age como um agente inspetor da ANVISA e valida se os alimentos estão próprios para consumo ou não.
