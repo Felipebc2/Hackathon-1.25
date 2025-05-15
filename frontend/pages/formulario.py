@@ -22,7 +22,7 @@ with st.sidebar:
         '[![Open in GitHub](https://github.com/codespaces/badge.svg)](https://github.com/Felipebc2/Hackathon-1.25)',
         unsafe_allow_html=True
     )
-    st.image("SharebiteNtext.png", caption=" ", use_container_width=True)
+    st.image("img/SharebiteNtext.png", caption=" ", use_container_width=True)
 
 # ========== FORMULÁRIO ==========
 st.header("Formulário de Viabilidade para Doação")
