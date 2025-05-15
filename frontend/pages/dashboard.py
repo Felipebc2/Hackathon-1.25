@@ -12,17 +12,19 @@ load_dotenv()
 
 # Caminhos
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-infoProdutos = "./database/Produtos.csv"
+infoProdutos = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "database", "Produtos.csv"))
 
-st.set_page_config(page_title="dashboard", layout="centered")
+st.set_page_config(page_title="Dashboard", layout="centered")
 st.title("Análise Estatística")
 
+# Sidebar setup
 with st.sidebar:
+    st.title("Navegação do App")
     st.markdown(
         '[![Open in GitHub](https://github.com/codespaces/badge.svg)](https://github.com/Felipebc2/Hackathon-1.25)',
         unsafe_allow_html=True
     )
-    st.image("frontend/shareBiteLogo.png", caption=" ", use_container_width=True)
+    st.image("SharebiteNtext.png", caption=" ", use_container_width=True)
 
 try:
     df = pd.read_csv(infoProdutos)

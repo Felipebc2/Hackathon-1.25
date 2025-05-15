@@ -15,6 +15,15 @@ infoProdutos = "./database/Produtos.csv"
 st.set_page_config(page_title="Validação de Doações", layout="centered")
 st.title("Validação de Doações de Alimentos")
 
+# Sidebar setup
+with st.sidebar:
+    st.title("Navegação do App")
+    st.markdown(
+        '[![Open in GitHub](https://github.com/codespaces/badge.svg)](https://github.com/Felipebc2/Hackathon-1.25)',
+        unsafe_allow_html=True
+    )
+    st.image("SharebiteNtext.png", caption=" ", use_container_width=True)
+
 # ========== FORMULÁRIO ==========
 st.header("Formulário de Viabilidade para Doação")
 
