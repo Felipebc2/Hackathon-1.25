@@ -133,9 +133,4 @@ streamlit run home.py
 ---
 
 Este projeto está licenciado sob a MIT License.
-
-<<<<<<< HEAD
-© 2024 Felipe Castro, Fábio Terra, Sara Azevedo, Pietro Branco. Todos os direitos reservados.
-=======
-© 2024 Felipe Castro, Fábio Terra, Sara Azevedo, Pietro Branco. Todos os direitos reservados.
->>>>>>> 9b5fd995daa27bdeaafdd04d546fcf989f2dd3ca
+© 2025 Felipe Castro, Fábio Terra, Sara Azevedo, Pietro Branco. Todos os direitos reservados.
